@@ -3,26 +3,27 @@ package miniProjeAsalSayi;
 public class Main {
 
 	public static void main(String[] args) {
-		int number = 1;
-		int reminder = number % 2;
-		boolean isPrime = true;
+		int number=1;
+		int reminder=number%2;
+		boolean isPrime=true;
 		System.out.println(reminder);
-
-		if (number < 2) {
+		
+		if (number<2) {
 			System.out.println("Geçersiz Sayı Girdiniz.");
 		}
-
+		
 		for (int i = 2; i < number; i++) {
-			if (number % i == 0) {
-				isPrime = false;
+			if (number%i==0) {
+				isPrime=false;
 			}
-
+			
 		}
 		if (isPrime) {
 			System.out.println("Sayı Asaldır.");
-		} else {
+		}else {
 			System.out.println("Sayı asal değildir.");
 		}
+		
 
 	}
 

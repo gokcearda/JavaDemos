@@ -15,13 +15,13 @@ public class Main {
 			i += 2;
 		}
 		System.out.println("While Döngüsü bitti");
-		// do-while döngüsü
-		int j = 1;
+		//do-while döngüsü
+		int j=1;
 		do {
 			System.out.println("Loglandı");
 			System.out.println(j);
-			j += 2;
-		} while (j < 10);
+			j+=2;
+		}while(j<10);
 		System.out.println("do-while döngüsü bitti");
 
 	}
